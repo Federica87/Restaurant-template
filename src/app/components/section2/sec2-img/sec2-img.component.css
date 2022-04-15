@@ -1,0 +1,9 @@
+.imgsec2-container {
+  background-color: forestgreen;
+  display: flex;
+  flex-direction: column;
+}
+img {
+    width: 475px;
+    height: 360px;
+}

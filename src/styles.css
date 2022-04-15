@@ -5,3 +5,6 @@
   --grigioscuro: #3E3836;
   --grigiochiaro: #9E9285;
 }
+body {
+  margin: 0px;
+}
