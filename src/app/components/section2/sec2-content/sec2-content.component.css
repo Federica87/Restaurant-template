@@ -22,16 +22,17 @@
 .titlesec2 {
     background-color: blueviolet;
     width: 200px;
+    color: var(--ocra);
 }
 .subtitlesec2 {
     background-color: lawngreen;
     width: 200px;
-
+    color: var(--nero);
 }
 .fulltextsec2 {
     background-color: orange;
     width: 400px;
-
+    color: var(--grigiochiaro);
 }
 .img-sec2-container1 {
     display: flex;
