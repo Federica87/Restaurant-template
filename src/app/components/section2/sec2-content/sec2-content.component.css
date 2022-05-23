@@ -47,3 +47,31 @@
     display: flex;
     align-self: center;
 }
+
+/*MEDIA*/
+
+@media (max-width: 400px) {
+    .display_homesec2 {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    .text-sec2 {
+        /*background-color: violet;*/
+        display: flex;
+        justify-content: center;
+        width: 400px;
+    }
+    .titlesec2 {
+        /*background-color: brown;*/
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fulltextsec2 {
+        /*background-color: bisque;*/
+        width: 320px;
+        text-align: center;
+    }
+}

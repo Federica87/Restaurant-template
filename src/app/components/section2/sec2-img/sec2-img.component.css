@@ -1,9 +1,19 @@
 .imgsec2-container {
-  background-color: forestgreen;
+  /*background-color: forestgreen;*/
   display: flex;
   flex-direction: column;
 }
 img {
     width: 475px;
     height: 360px;
+}
+@media (max-width: 400px) {
+  .imgsec2-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  img {
+    width: auto;
+  }
 }
