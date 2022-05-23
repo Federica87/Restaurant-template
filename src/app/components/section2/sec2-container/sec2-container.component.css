@@ -1,0 +1,14 @@
+.sec2-container {
+    display:flex;
+    justify-content: center;
+    background-color: white;
+}
+@media (max-width: 400px) {
+    .sec2-container {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        flex-direction: column;
+        width: 400px;
+    }
+}
