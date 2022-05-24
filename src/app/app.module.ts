@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { Sec2ContainerComponent } from './components/section2/sec2-container/sec2-container.component';
 import { Sec2ContentComponent } from './components/section2/sec2-content/sec2-content.component';
 import { Sec2ImgComponent } from './components/section2/sec2-img/sec2-img.component';
+import { Section3Component } from './components/section3/section3.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Sec2ContainerComponent,
     Sec2ContentComponent,
-    Sec2ImgComponent
+    Sec2ImgComponent,
+    Section3Component
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,33 @@
+.sec3Container {
+    background-image: url(/assets/imgSec3/imgSec3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: bisque;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.textSec3Container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.titleSec3 {
+    /*background-color: blueviolet;*/
+    width: 200px;
+    color: var(--ocrascuro);
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.subtitleSec3 {
+    /*background-color: lawngreen;*/
+    width: 200px;
+    color: var(--nero);
+    font-family: 'Secular One';
+    font-style: normal;
+    font-weight: 400;
+}
