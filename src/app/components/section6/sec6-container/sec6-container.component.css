@@ -1,16 +1,16 @@
-.sec2-container {
-    display:flex;
+.sec6-container {
+    display: flex;
     justify-content: center;
+    /*background-color: aqua;*/
     background-color: white;
 }
 @media (max-width: 400px) {
-    .sec2-container {
+    .sec6-container {
         display: flex;
         justify-content: center;
-        /*background-color: white;*/
         background-color: aqua;
+        /*background-color: white; */
         flex-direction: column;
         width: 400px;
-        height: 177vh;
     }
 }

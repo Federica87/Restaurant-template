@@ -1,0 +1,24 @@
+.imgSec6-container {
+  /*background-color: forestgreen;*/
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+    width: 277px;
+    height: 409px;
+    padding-right: 10px;
+}
+@media (max-width: 400px) {
+  .imgSec6-container {
+    display: flex;
+    flex-direction: column;
+    width: 277px;
+    height: 409px;
+    align-items: center;
+  }
+  img {
+    width: auto;
+    padding: 10px;
+  }
+}

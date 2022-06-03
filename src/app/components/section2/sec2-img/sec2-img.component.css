@@ -1,4 +1,4 @@
-.imgsec2-container {
+.imgSec2-container {
   /*background-color: forestgreen;*/
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@ img {
     height: 360px;
 }
 @media (max-width: 400px) {
-  .imgsec2-container {
+  .imgSec2-container {
     display: flex;
     flex-direction: column;
     width: 400px;
